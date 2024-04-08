@@ -63,9 +63,8 @@ while running:
     output = [' '] * screen_size
     zbuffer = [0] * screen_size
 
-    for theta in range(0, 628, theta_spacing):  # theta goes around the cross-sectional circle of a torus, from 0 to 2pi
-        for phi in range(0, 628, phi_spacing):  # phi goes around the center of revolution of a torus, from 0 to 2pi
-
+    for theta in range(0, 628, theta_spacing):
+        for phi in range(0, 628, phi_spacing): 
             cosA = cos(A)
             sinA = sin(A)
             cosB = cos(B)
